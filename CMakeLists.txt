@@ -10,7 +10,7 @@ set(H_FILES
 #  src/Fs.hpp
   src/inih/ini.h
   src/inih/INIReader.hpp
-#  src/User.hpp
+  src/User.hpp
 #  src/Yt_dlp.hpp
 )
 set(CPP_FILES
@@ -19,7 +19,7 @@ set(CPP_FILES
 #  src/Fs.cpp
 #  src/inih/ini.c
   src/inih/INIReader.cpp
-#  src/User.cpp
+  src/User.cpp
 #  src/Yt_dlp.cpp
 )
 add_executable(dym ${H_FILES} ${C_FILES} ${CPP_FILES})

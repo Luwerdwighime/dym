@@ -3,9 +3,8 @@
  * @brief Прога для комфортного кача с YouTube
  */
 
-#include "Cfg.hpp" // Для класса Cfg и глобального объекта config типа Cfg
-
-#include <iostream> // Debug
+#include "Cfg.hpp"  // Для класса Cfg и глобального объекта config типа Cfg
+#include "User.hpp" // Для класса User
 
 /**
  * @brief Точка входа в программу
@@ -16,12 +15,27 @@
  * @return Числовые коды ошибок или 0 при успехе
  */
 int main(int argc, char* argv[]) {
-  config = new Cfg(argc, argv); // Читаем всю конфигурацию (из ini и командной строки)
+  // Читаем всю конфигурацию (из ini и командной строки)
+  config = new Cfg(argc, argv);
+
+  // Может хэлп?
+  if (config->opt.bug) {
+    User::help(); // Юзер ошибся с опциями
+    return ERR_OPTS; // Критический выход
+  }
+  if (config->opt.mode == 'h') {
+    User::help(); // Юзер хочет хэлп
+    return 0; // Просто выход
+  }
   
-  std::cout << config->fs.dir_rights << "\n";
+  // Доспрашиваем необходимое, если нужно
+  if (!config->opt.mode)     // Юзер не указал режим, спрашиваем
+    config->opt.mode = User::menu();   
+  if (config->opt.url == "") // Юзер не указал URL, спрашиваем
+    config->opt.url  = User::getUrl();
 
 
 
-  return 0;          // Profit!
+  return 0; // Profit!
 }
 
