@@ -1,22 +1,26 @@
 cmake_minimum_required(VERSION 3.10)
 set(CMAKE_CXX_STANDARD 17)
-project(dym LANGUAGES CXX)
+project(dym LANGUAGES C CXX)
 
-set(HPP_FILES
-#  src/cfg.hpp
-#  src/config.hpp
-#  src/fs.hpp
-#  src/ini.hpp
-#  src/user.hpp
-#  src/yt_dlp.hpp
+set(C_FILES src/inih/ini.c)
+set_source_files_properties(${C_FILES} PROPERTIES LANGUAGE C)
+set(H_FILES
+  src/Cfg.hpp
+  src/config.hpp
+#  src/Fs.hpp
+  src/inih/ini.h
+  src/inih/INIReader.hpp
+#  src/User.hpp
+#  src/Yt_dlp.hpp
 )
 set(CPP_FILES
   src/main.cpp
-#  src/cfg.cpp
-#  src/fs.cpp
-#  src/ini.cpp
-#  src/user.cpp
-#  src/yt_dlp.cpp
+  src/Cfg.cpp
+#  src/Fs.cpp
+#  src/inih/ini.c
+  src/inih/INIReader.cpp
+#  src/User.cpp
+#  src/Yt_dlp.cpp
 )
-add_executable(dym ${HPP_FILES} ${CPP_FILES})
+add_executable(dym ${H_FILES} ${C_FILES} ${CPP_FILES})
 
