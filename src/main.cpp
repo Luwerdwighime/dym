@@ -4,6 +4,7 @@
  */
 
 #include "Cfg.hpp"  // Для класса Cfg и глобального объекта config типа Cfg
+#include "Fs.hpp"   // Для класса Fs
 #include "User.hpp" // Для класса User
 
 /**
@@ -33,6 +34,11 @@ int main(int argc, char* argv[]) {
     config->opt.mode = User::menu();   
   if (config->opt.url == "") // Юзер не указал URL, спрашиваем
     config->opt.url  = User::getUrl();
+
+  // Пойдем работать потихонечку
+  Fs::initDirs(); // Создаем, если нужно, рабочие папки
+
+
 
 
 

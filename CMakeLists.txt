@@ -7,7 +7,7 @@ set_source_files_properties(${C_FILES} PROPERTIES LANGUAGE C)
 set(H_FILES
   src/Cfg.hpp
   src/config.hpp
-#  src/Fs.hpp
+  src/Fs.hpp
   src/inih/ini.h
   src/inih/INIReader.hpp
   src/User.hpp
@@ -16,7 +16,7 @@ set(H_FILES
 set(CPP_FILES
   src/main.cpp
   src/Cfg.cpp
-#  src/Fs.cpp
+  src/Fs.cpp
 #  src/inih/ini.c
   src/inih/INIReader.cpp
   src/User.cpp
