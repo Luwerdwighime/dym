@@ -20,7 +20,7 @@ dym [-c|--config] [-h|--help] [РЕЖИМ] [URL]
 
 ## Сборка в Termux
 ```shell
-pkg install cmake gcc yt-dlp
+pkg install cmake clang yt-dlp
 git clone git@github.com:Luwerdwighime/dym.git
 cd dym
 ./build.sh
