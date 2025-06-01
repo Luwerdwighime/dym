@@ -1,0 +1,5 @@
+<map id="Fs::log_video_id" name="Fs::log_video_id">
+<area shape="rect" id="Node000001" title="Запись ID видео в DRAY_LOG." alt="" coords="5,5,132,33"/>
+<area shape="rect" id="Node000002" href="$classFs.html#abe01b346d7340a78999e275b36e06b46" title="Возвращает путь к DRAY_LOG." alt="" coords="180,5,304,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,16,164,16,164,22,132,22"/>
+</map>

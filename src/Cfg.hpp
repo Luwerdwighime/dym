@@ -1,5 +1,5 @@
 /**
- * @file cfg.hpp
+ * @file Cfg.hpp
  * @brief Класс Cfg и глобальная переменная config
  */
 

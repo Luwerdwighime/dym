@@ -1,0 +1,5 @@
+<map id="Fs::is_video_downloaded" name="Fs::is_video_downloaded">
+<area shape="rect" id="Node000001" title="Проверка, есть ли ID видео в DRAY_LOG." alt="" coords="5,5,190,33"/>
+<area shape="rect" id="Node000002" href="$classFs.html#abe01b346d7340a78999e275b36e06b46" title="Возвращает путь к DRAY_LOG." alt="" coords="238,5,362,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,16,222,16,222,22,190,22"/>
+</map>

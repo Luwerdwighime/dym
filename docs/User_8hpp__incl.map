@@ -1,0 +1,9 @@
+<map id="src/User.hpp" name="src/User.hpp">
+<area shape="rect" id="Node000001" title="Класс User как коллекция функций пользовательского интерфейса" alt="" coords="88,5,189,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,85,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,36,75,73,72,69,120,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="109,81,168,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="141,34,141,65,136,65,136,34"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="192,81,250,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="155,32,197,69,193,73,151,36"/>
+</map>

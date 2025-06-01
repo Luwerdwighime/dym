@@ -1,0 +1,34 @@
+<map id="INIReader::MakeKey" name="INIReader::MakeKey">
+<area shape="rect" id="Node000001" title=" " alt="" coords="740,315,892,342"/>
+<area shape="rect" id="Node000002" href="$classINIReader.html#a444ab67be741a41dcd26759d744b20db" title=" " alt="" coords="543,211,660,238"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="782,308,739,280,691,254,658,241,660,236,693,249,742,275,785,303"/>
+<area shape="rect" id="Node000012" href="$classINIReader.html#adc5d42287a7be0f441762c14016db98f" title=" " alt="" coords="518,263,685,290"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="740,313,661,294,662,288,741,308"/>
+<area shape="rect" id="Node000013" href="$classINIReader.html#aea82a4895f899ed71826653b30568b89" title=" " alt="" coords="524,315,679,342"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="724,331,679,331,679,326,724,326"/>
+<area shape="rect" id="Node000014" href="$classINIReader.html#ac2fb0a1e561a8d07b69ee700e8076b5c" title=" " alt="" coords="539,367,664,394"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="741,349,662,369,661,363,740,344"/>
+<area shape="rect" id="Node000015" href="$classINIReader.html#a38e5a02b9eab882f23401a4b5a0c42a3" title=" " alt="" coords="511,419,692,446"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="785,354,742,382,693,408,660,421,658,416,691,403,739,377,782,349"/>
+<area shape="rect" id="Node000003" href="$classINIReader.html#a6fcbb2ebdfad098e34a14f2144f711f7" title=" " alt="" coords="282,5,451,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="584,198,564,164,537,123,502,82,462,48,438,36,441,31,465,44,506,79,541,120,569,161,589,196"/>
+<area shape="rect" id="Node000004" href="$classINIReader.html#a37ef1f422f1a5cb43bf63d82f4ea112f" title=" " alt="" coords="286,57,448,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="575,201,526,153,495,127,462,106,423,88,425,83,465,101,498,123,529,149,579,197"/>
+<area shape="rect" id="Node000005" href="$classCfg.html#a73e8ab55770e914a02e269e015ab91c7" title="Анализирует ini, заполняет структуры fs и yt." alt="" coords="127,83,222,110"/>
+<area shape="poly" id="edge11_Node000002_Node000005" title=" " alt="" coords="566,204,518,175,462,150,399,131,333,117,222,102,223,97,334,112,400,126,464,145,521,171,569,200"/>
+<area shape="rect" id="Node000007" href="$classINIReader.html#ae15fc2bf2cc8bb98066356b8654e3bee" title=" " alt="" coords="278,159,456,186"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="528,211,432,190,433,184,529,206"/>
+<area shape="rect" id="Node000008" href="$classINIReader.html#a0a41e06f215552e5d7217a0abc5c214f" title=" " alt="" coords="294,211,439,238"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="528,227,440,227,440,222,528,222"/>
+<area shape="rect" id="Node000009" href="$classINIReader.html#a37db13b6a4db6c095a515e77ee5b932b" title=" " alt="" coords="290,263,444,290"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="529,243,433,265,432,259,528,238"/>
+<area shape="rect" id="Node000010" href="$classINIReader.html#a501e06eacb953a5f99f1acb46c965869" title=" " alt="" coords="278,315,455,342"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="530,245,513,253,498,265,490,278,480,291,465,304,438,316,436,312,462,300,476,288,485,275,494,262,510,249,527,240"/>
+<area shape="rect" id="Node000011" href="$classINIReader.html#aa521d5d82a367dc1431d309da02a2b57" title=" " alt="" coords="270,367,463,394"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="530,242,513,253,502,265,496,277,490,303,484,330,477,343,465,356,445,368,442,364,462,352,473,340,479,328,485,302,491,276,498,262,510,249,527,238"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="270,87,223,93,222,88,269,81"/>
+<area shape="rect" id="Node000006" href="$classCfg.html#a7e0dd6c56406c37d332d0357c6bc70eb" title="Конструктор объекта класса Cfg." alt="" coords="5,83,79,110"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="111,99,79,99,79,94,111,94"/>
+<area shape="rect" id="Node000016" href="$classINIReader.html#aa991be1958a5414e4bfcfb692b28d647" title=" " alt="" coords="288,419,445,446"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="496,435,446,435,446,430,496,430"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="Cfg::loadIni" name="Cfg::loadIni">
+<area shape="rect" id="Node000001" title="Анализирует ini, заполняет структуры fs и yt." alt="" coords="5,31,101,58"/>
+<area shape="rect" id="Node000002" href="$classINIReader.html#a444ab67be741a41dcd26759d744b20db" title=" " alt="" coords="359,5,475,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,27,148,17,250,10,343,11,343,17,250,15,149,22,99,33"/>
+<area shape="rect" id="Node000004" href="$classINIReader.html#a37ef1f422f1a5cb43bf63d82f4ea112f" title=" " alt="" coords="149,31,311,58"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="101,42,133,42,133,47,101,47"/>
+<area shape="rect" id="Node000005" href="$classINIReader.html#a7527150689e2dbdc7388306c00d5e039" title=" " alt="" coords="150,83,310,110"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="102,56,167,75,165,80,100,61"/>
+<area shape="rect" id="Node000003" href="$classINIReader.html#a29eb47ac6f75322fb729926cd058fef3" title=" " alt="" coords="523,5,676,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="476,16,508,16,508,22,476,22"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="311,31,343,26,344,32,312,36"/>
+</map>

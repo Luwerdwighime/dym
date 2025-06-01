@@ -1,0 +1,5 @@
+<map id="Cfg::loadIni" name="Cfg::loadIni">
+<area shape="rect" id="Node000001" title="Анализирует ini, заполняет структуры fs и yt." alt="" coords="127,5,222,33"/>
+<area shape="rect" id="Node000002" href="$classCfg.html#a7e0dd6c56406c37d332d0357c6bc70eb" title="Конструктор объекта класса Cfg." alt="" coords="5,5,79,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,22,79,22,79,16,111,16"/>
+</map>

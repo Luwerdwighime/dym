@@ -1,0 +1,5 @@
+<map id="Fs::initDirs" name="Fs::initDirs">
+<area shape="rect" id="Node000001" title="Создаёт нужные для работы проги папки" alt="" coords="5,5,97,33"/>
+<area shape="rect" id="Node000002" href="$classFs.html#a364898d4c8e6ceb153b2a5b9c7c34e42" title="Создаёт папку (целый путь), если её ещё нет" alt="" coords="145,5,242,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,16,129,16,129,22,97,22"/>
+</map>

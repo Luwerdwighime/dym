@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>dym: Исходный файл src/Cfg.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">dym
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Поиск',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('Cfg_8hpp_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Cfg.hpp</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="Cfg_8hpp.html">См. документацию.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;cstdlib&gt;</span>     <span class="comment">// Для std::exit()</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;iostream&gt;</span>    <span class="comment">// Для std::cerr</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;getopt.h&gt;</span>    <span class="comment">// Для getopt_long(), optarg, optind</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;string&gt;</span>      <span class="comment">// Для std::string</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="config_8hpp.html">config.hpp</a>&quot;</span>  <span class="comment">// Константы</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;INIReader.h&quot;</span> <span class="comment">// Анализатор ini-шек</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span></div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="classCfg.html">   17</a></span><span class="keyword">class </span><a class="code hl_function" href="classCfg.html#a7e0dd6c56406c37d332d0357c6bc70eb">Cfg</a> {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> <span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00024" data-start="{" data-end="};">
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="structCfg_1_1Options.html">   24</a></span>  <span class="keyword">struct </span><a class="code hl_struct" href="structCfg_1_1Options.html">Options</a> {</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="structCfg_1_1Options.html#a85765939356c8095db02364e6338818f">   26</a></span>    <span class="keywordtype">bool</span>        <a class="code hl_variable" href="structCfg_1_1Options.html#a85765939356c8095db02364e6338818f">bug</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="structCfg_1_1Options.html#a34ec361c8b475e3204666def191908e6">   28</a></span>    std::string <a class="code hl_variable" href="structCfg_1_1Options.html#a34ec361c8b475e3204666def191908e6">config</a>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="structCfg_1_1Options.html#ab53562d98d251ca377a815e7f9c4105a">   30</a></span>    <span class="keywordtype">char</span>        <a class="code hl_variable" href="structCfg_1_1Options.html#ab53562d98d251ca377a815e7f9c4105a">mode</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="structCfg_1_1Options.html#ada139c22827b4a045848dae56629b21b">   32</a></span>    std::string <a class="code hl_variable" href="structCfg_1_1Options.html#ada139c22827b4a045848dae56629b21b">url</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  };</div>
+</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classCfg.html#a2751379741d5de20eec21f1113d743b2">   36</a></span>  <a class="code hl_struct" href="structCfg_1_1Options.html">Options</a> <a class="code hl_variable" href="classCfg.html#a2751379741d5de20eec21f1113d743b2">opt</a> = {<span class="keyword">false</span>, <a class="code hl_define" href="config_8hpp.html#a4534d2cdf78326b5e595ff12e04f967e">INI_CFG</a>, 0, <span class="stringliteral">&quot;&quot;</span>};</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
+<div class="foldopen" id="foldopen00043" data-start="{" data-end="};">
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="structCfg_1_1Fs.html">   43</a></span>  <span class="keyword">struct </span><a class="code hl_struct" href="structCfg_1_1Fs.html">Fs</a> {</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="structCfg_1_1Fs.html#a48220cf0b317c274772453e2719fa142">   45</a></span>    <span class="keywordtype">int</span>         <a class="code hl_variable" href="structCfg_1_1Fs.html#a48220cf0b317c274772453e2719fa142">dir_rights</a>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="structCfg_1_1Fs.html#a08e89c7533ec640726224e0dec95e6dc">   47</a></span>    std::string <a class="code hl_variable" href="structCfg_1_1Fs.html#a08e89c7533ec640726224e0dec95e6dc">video_dir</a>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="structCfg_1_1Fs.html#a7b931600414cad7db89382adcb8f872e">   49</a></span>    std::string <a class="code hl_variable" href="structCfg_1_1Fs.html#a7b931600414cad7db89382adcb8f872e">audio_dir</a>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="structCfg_1_1Fs.html#aa25b5317a6bb63c249a8dfbcd315eece">   51</a></span>    std::string <a class="code hl_variable" href="structCfg_1_1Fs.html#aa25b5317a6bb63c249a8dfbcd315eece">dray_dir</a>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="structCfg_1_1Fs.html#ad56578c2d9b2ff655ec080c3a4c29032">   53</a></span>    std::string <a class="code hl_variable" href="structCfg_1_1Fs.html#ad56578c2d9b2ff655ec080c3a4c29032">dray_log</a>;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="structCfg_1_1Fs.html#a61347e82a939511648b3f6193fcdc6d0">   55</a></span>    std::string <a class="code hl_variable" href="structCfg_1_1Fs.html#a61347e82a939511648b3f6193fcdc6d0">cookie_path</a>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  };</div>
+</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="classCfg.html#acaac26190cb59d61b63307f340a30c60">   59</a></span>  <a class="code hl_struct" href="structCfg_1_1Fs.html">Fs</a> <a class="code hl_variable" href="classCfg.html#acaac26190cb59d61b63307f340a30c60">fs</a> = {0755, <span class="stringliteral">&quot;video_dir&quot;</span>, <span class="stringliteral">&quot;audio_dir&quot;</span>, <span class="stringliteral">&quot;dray_dir&quot;</span>, <span class="stringliteral">&quot;dray_log.txt&quot;</span>, <span class="stringliteral">&quot;&quot;</span>};</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span></div>
+<div class="foldopen" id="foldopen00066" data-start="{" data-end="};">
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="structCfg_1_1Yt.html">   66</a></span>  <span class="keyword">struct </span><a class="code hl_struct" href="structCfg_1_1Yt.html">Yt</a> {</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="structCfg_1_1Yt.html#af2ce711bfe0f20dd8fcfb2d293301344">   68</a></span>    std::string <a class="code hl_variable" href="structCfg_1_1Yt.html#af2ce711bfe0f20dd8fcfb2d293301344">ytids</a>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="structCfg_1_1Yt.html#afdb387f90baf8112671fe84e99a8907c">   70</a></span>    std::string <a class="code hl_variable" href="structCfg_1_1Yt.html#afdb387f90baf8112671fe84e99a8907c">ytcmd</a>;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="structCfg_1_1Yt.html#a646d94db6956ed3bd2482e9f33d14895">   72</a></span>    std::string <a class="code hl_variable" href="structCfg_1_1Yt.html#a646d94db6956ed3bd2482e9f33d14895">mode1</a>;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="structCfg_1_1Yt.html#a8040ab0eed2c0eb7720179be789f6d4f">   74</a></span>    std::string <a class="code hl_variable" href="structCfg_1_1Yt.html#a8040ab0eed2c0eb7720179be789f6d4f">mode2</a>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="structCfg_1_1Yt.html#ada946b2649156940259b3fb0d9c1a32e">   76</a></span>    std::string <a class="code hl_variable" href="structCfg_1_1Yt.html#ada946b2649156940259b3fb0d9c1a32e">modep</a>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="structCfg_1_1Yt.html#ad178c31b63bff46a54aacb27320501f1">   78</a></span>    std::string <a class="code hl_variable" href="structCfg_1_1Yt.html#ad178c31b63bff46a54aacb27320501f1">fname</a>;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="structCfg_1_1Yt.html#adde04f22e1cda6744bb3823bc316e7d7">   80</a></span>    std::string <a class="code hl_variable" href="structCfg_1_1Yt.html#adde04f22e1cda6744bb3823bc316e7d7">pname</a>;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="structCfg_1_1Yt.html#a3a44929b76fc890ed80536686d37e7e7">   82</a></span>    <span class="keywordtype">int</span>         <a class="code hl_variable" href="structCfg_1_1Yt.html#a3a44929b76fc890ed80536686d37e7e7">retr</a>;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  };</div>
+</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="classCfg.html#a885a1164cabca9aaa75a2917e8804372">   86</a></span>  <a class="code hl_struct" href="structCfg_1_1Yt.html">Yt</a> <a class="code hl_variable" href="classCfg.html#a885a1164cabca9aaa75a2917e8804372">yt</a> = {<span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, 3};</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  <a class="code hl_function" href="classCfg.html#a7e0dd6c56406c37d332d0357c6bc70eb">Cfg</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[]);</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="classCfg.html#a754bcb1933cc847b0bc1dbbfac72d486">termOpts</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[]);</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span></div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="classCfg.html#a73e8ab55770e914a02e269e015ab91c7">loadIni</a>(std::string file);</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>};</div>
+</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="keyword">extern</span> <a class="code hl_class" href="classCfg.html">Cfg</a>* <a class="code hl_variable" href="Cfg_8cpp.html#a2df00c5434115197c47ed3e107083acd">config</a>;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="ttc" id="aCfg_8cpp_html_a2df00c5434115197c47ed3e107083acd"><div class="ttname"><a href="Cfg_8cpp.html#a2df00c5434115197c47ed3e107083acd">config</a></div><div class="ttdeci">Cfg * config</div><div class="ttdoc">Память под глобальную переменную-указатель на config типа/класса Cfg.</div><div class="ttdef"><b>Определения</b> Cfg.cpp:131</div></div>
+<div class="ttc" id="aclassCfg_html"><div class="ttname"><a href="classCfg.html">Cfg</a></div><div class="ttdoc">Класс конфигурации</div><div class="ttdef"><b>Определения</b> Cfg.hpp:17</div></div>
+<div class="ttc" id="aclassCfg_html_a2751379741d5de20eec21f1113d743b2"><div class="ttname"><a href="classCfg.html#a2751379741d5de20eec21f1113d743b2">Cfg::opt</a></div><div class="ttdeci">Options opt</div><div class="ttdoc">Память под опции командной строки в формате Options.</div><div class="ttdef"><b>Определения</b> Cfg.hpp:36</div></div>
+<div class="ttc" id="aclassCfg_html_a73e8ab55770e914a02e269e015ab91c7"><div class="ttname"><a href="classCfg.html#a73e8ab55770e914a02e269e015ab91c7">Cfg::loadIni</a></div><div class="ttdeci">void loadIni(std::string file)</div><div class="ttdoc">Анализирует ini, заполняет структуры fs и yt.</div><div class="ttdef"><b>Определения</b> Cfg.cpp:49</div></div>
+<div class="ttc" id="aclassCfg_html_a754bcb1933cc847b0bc1dbbfac72d486"><div class="ttname"><a href="classCfg.html#a754bcb1933cc847b0bc1dbbfac72d486">Cfg::termOpts</a></div><div class="ttdeci">void termOpts(int argc, char *argv[])</div><div class="ttdoc">Анализирует опции командной строки, заполняет структуру opt.</div><div class="ttdef"><b>Определения</b> Cfg.cpp:10</div></div>
+<div class="ttc" id="aclassCfg_html_a7e0dd6c56406c37d332d0357c6bc70eb"><div class="ttname"><a href="classCfg.html#a7e0dd6c56406c37d332d0357c6bc70eb">Cfg::Cfg</a></div><div class="ttdeci">Cfg(int argc, char *argv[])</div><div class="ttdoc">Конструктор объекта класса Cfg.</div><div class="ttdef"><b>Определения</b> Cfg.cpp:3</div></div>
+<div class="ttc" id="aclassCfg_html_a885a1164cabca9aaa75a2917e8804372"><div class="ttname"><a href="classCfg.html#a885a1164cabca9aaa75a2917e8804372">Cfg::yt</a></div><div class="ttdeci">Yt yt</div><div class="ttdoc">Память под опции yt-dlp из ini в формате Yt.</div><div class="ttdef"><b>Определения</b> Cfg.hpp:86</div></div>
+<div class="ttc" id="aclassCfg_html_acaac26190cb59d61b63307f340a30c60"><div class="ttname"><a href="classCfg.html#acaac26190cb59d61b63307f340a30c60">Cfg::fs</a></div><div class="ttdeci">Fs fs</div><div class="ttdoc">Память под конфиг папок из ini в формате Fs.</div><div class="ttdef"><b>Определения</b> Cfg.hpp:59</div></div>
+<div class="ttc" id="aconfig_8hpp_html"><div class="ttname"><a href="config_8hpp.html">config.hpp</a></div><div class="ttdoc">Константы</div></div>
+<div class="ttc" id="aconfig_8hpp_html_a4534d2cdf78326b5e595ff12e04f967e"><div class="ttname"><a href="config_8hpp.html#a4534d2cdf78326b5e595ff12e04f967e">INI_CFG</a></div><div class="ttdeci">#define INI_CFG</div><div class="ttdoc">Путь поумолчанию до конфига</div><div class="ttdef"><b>Определения</b> config.hpp:11</div></div>
+<div class="ttc" id="astructCfg_1_1Fs_html"><div class="ttname"><a href="structCfg_1_1Fs.html">Cfg::Fs</a></div><div class="ttdoc">Структура для конфигурации рабочих каталогов вычитанной из config.ini.</div><div class="ttdef"><b>Определения</b> Cfg.hpp:43</div></div>
+<div class="ttc" id="astructCfg_1_1Fs_html_a08e89c7533ec640726224e0dec95e6dc"><div class="ttname"><a href="structCfg_1_1Fs.html#a08e89c7533ec640726224e0dec95e6dc">Cfg::Fs::video_dir</a></div><div class="ttdeci">std::string video_dir</div><div class="ttdoc">Путь к папке для видео</div><div class="ttdef"><b>Определения</b> Cfg.hpp:47</div></div>
+<div class="ttc" id="astructCfg_1_1Fs_html_a48220cf0b317c274772453e2719fa142"><div class="ttname"><a href="structCfg_1_1Fs.html#a48220cf0b317c274772453e2719fa142">Cfg::Fs::dir_rights</a></div><div class="ttdeci">int dir_rights</div><div class="ttdoc">Права доступа к создаваемым папкам, 9 бит</div><div class="ttdef"><b>Определения</b> Cfg.hpp:45</div></div>
+<div class="ttc" id="astructCfg_1_1Fs_html_a61347e82a939511648b3f6193fcdc6d0"><div class="ttname"><a href="structCfg_1_1Fs.html#a61347e82a939511648b3f6193fcdc6d0">Cfg::Fs::cookie_path</a></div><div class="ttdeci">std::string cookie_path</div><div class="ttdoc">Путь к куке YouTube.</div><div class="ttdef"><b>Определения</b> Cfg.hpp:55</div></div>
+<div class="ttc" id="astructCfg_1_1Fs_html_a7b931600414cad7db89382adcb8f872e"><div class="ttname"><a href="structCfg_1_1Fs.html#a7b931600414cad7db89382adcb8f872e">Cfg::Fs::audio_dir</a></div><div class="ttdeci">std::string audio_dir</div><div class="ttdoc">Путь к папке для аудио</div><div class="ttdef"><b>Определения</b> Cfg.hpp:49</div></div>
+<div class="ttc" id="astructCfg_1_1Fs_html_aa25b5317a6bb63c249a8dfbcd315eece"><div class="ttname"><a href="structCfg_1_1Fs.html#aa25b5317a6bb63c249a8dfbcd315eece">Cfg::Fs::dray_dir</a></div><div class="ttdeci">std::string dray_dir</div><div class="ttdoc">Путь к папке для Дмитрия Рея</div><div class="ttdef"><b>Определения</b> Cfg.hpp:51</div></div>
+<div class="ttc" id="astructCfg_1_1Fs_html_ad56578c2d9b2ff655ec080c3a4c29032"><div class="ttname"><a href="structCfg_1_1Fs.html#ad56578c2d9b2ff655ec080c3a4c29032">Cfg::Fs::dray_log</a></div><div class="ttdeci">std::string dray_log</div><div class="ttdoc">Имя файла лога Дмитрия Рея</div><div class="ttdef"><b>Определения</b> Cfg.hpp:53</div></div>
+<div class="ttc" id="astructCfg_1_1Options_html"><div class="ttname"><a href="structCfg_1_1Options.html">Cfg::Options</a></div><div class="ttdoc">Структура для опций командной строки</div><div class="ttdef"><b>Определения</b> Cfg.hpp:24</div></div>
+<div class="ttc" id="astructCfg_1_1Options_html_a34ec361c8b475e3204666def191908e6"><div class="ttname"><a href="structCfg_1_1Options.html#a34ec361c8b475e3204666def191908e6">Cfg::Options::config</a></div><div class="ttdeci">std::string config</div><div class="ttdoc">Путь до ini конфига</div><div class="ttdef"><b>Определения</b> Cfg.hpp:28</div></div>
+<div class="ttc" id="astructCfg_1_1Options_html_a85765939356c8095db02364e6338818f"><div class="ttname"><a href="structCfg_1_1Options.html#a85765939356c8095db02364e6338818f">Cfg::Options::bug</a></div><div class="ttdeci">bool bug</div><div class="ttdoc">Флаг встречи бага при анализе</div><div class="ttdef"><b>Определения</b> Cfg.hpp:26</div></div>
+<div class="ttc" id="astructCfg_1_1Options_html_ab53562d98d251ca377a815e7f9c4105a"><div class="ttname"><a href="structCfg_1_1Options.html#ab53562d98d251ca377a815e7f9c4105a">Cfg::Options::mode</a></div><div class="ttdeci">char mode</div><div class="ttdoc">Режим работы</div><div class="ttdef"><b>Определения</b> Cfg.hpp:30</div></div>
+<div class="ttc" id="astructCfg_1_1Options_html_ada139c22827b4a045848dae56629b21b"><div class="ttname"><a href="structCfg_1_1Options.html#ada139c22827b4a045848dae56629b21b">Cfg::Options::url</a></div><div class="ttdeci">std::string url</div><div class="ttdoc">URL.</div><div class="ttdef"><b>Определения</b> Cfg.hpp:32</div></div>
+<div class="ttc" id="astructCfg_1_1Yt_html"><div class="ttname"><a href="structCfg_1_1Yt.html">Cfg::Yt</a></div><div class="ttdoc">Структура для конфигурации yt-dlp вычитанной из config.ini.</div><div class="ttdef"><b>Определения</b> Cfg.hpp:66</div></div>
+<div class="ttc" id="astructCfg_1_1Yt_html_a3a44929b76fc890ed80536686d37e7e7"><div class="ttname"><a href="structCfg_1_1Yt.html#a3a44929b76fc890ed80536686d37e7e7">Cfg::Yt::retr</a></div><div class="ttdeci">int retr</div><div class="ttdoc">Число попыток закачки</div><div class="ttdef"><b>Определения</b> Cfg.hpp:82</div></div>
+<div class="ttc" id="astructCfg_1_1Yt_html_a646d94db6956ed3bd2482e9f33d14895"><div class="ttname"><a href="structCfg_1_1Yt.html#a646d94db6956ed3bd2482e9f33d14895">Cfg::Yt::mode1</a></div><div class="ttdeci">std::string mode1</div><div class="ttdoc">Опции режима 1/3.</div><div class="ttdef"><b>Определения</b> Cfg.hpp:72</div></div>
+<div class="ttc" id="astructCfg_1_1Yt_html_a8040ab0eed2c0eb7720179be789f6d4f"><div class="ttname"><a href="structCfg_1_1Yt.html#a8040ab0eed2c0eb7720179be789f6d4f">Cfg::Yt::mode2</a></div><div class="ttdeci">std::string mode2</div><div class="ttdoc">Опции режима 2/4.</div><div class="ttdef"><b>Определения</b> Cfg.hpp:74</div></div>
+<div class="ttc" id="astructCfg_1_1Yt_html_ad178c31b63bff46a54aacb27320501f1"><div class="ttname"><a href="structCfg_1_1Yt.html#ad178c31b63bff46a54aacb27320501f1">Cfg::Yt::fname</a></div><div class="ttdeci">std::string fname</div><div class="ttdoc">Шаблон имени файла</div><div class="ttdef"><b>Определения</b> Cfg.hpp:78</div></div>
+<div class="ttc" id="astructCfg_1_1Yt_html_ada946b2649156940259b3fb0d9c1a32e"><div class="ttname"><a href="structCfg_1_1Yt.html#ada946b2649156940259b3fb0d9c1a32e">Cfg::Yt::modep</a></div><div class="ttdeci">std::string modep</div><div class="ttdoc">Допопции плейлистовых режимов 3/4.</div><div class="ttdef"><b>Определения</b> Cfg.hpp:76</div></div>
+<div class="ttc" id="astructCfg_1_1Yt_html_adde04f22e1cda6744bb3823bc316e7d7"><div class="ttname"><a href="structCfg_1_1Yt.html#adde04f22e1cda6744bb3823bc316e7d7">Cfg::Yt::pname</a></div><div class="ttdeci">std::string pname</div><div class="ttdoc">Шаблон папки и файлов для плейлиста</div><div class="ttdef"><b>Определения</b> Cfg.hpp:80</div></div>
+<div class="ttc" id="astructCfg_1_1Yt_html_af2ce711bfe0f20dd8fcfb2d293301344"><div class="ttname"><a href="structCfg_1_1Yt.html#af2ce711bfe0f20dd8fcfb2d293301344">Cfg::Yt::ytids</a></div><div class="ttdeci">std::string ytids</div><div class="ttdoc">Команда для списка плейлиста</div><div class="ttdef"><b>Определения</b> Cfg.hpp:68</div></div>
+<div class="ttc" id="astructCfg_1_1Yt_html_afdb387f90baf8112671fe84e99a8907c"><div class="ttname"><a href="structCfg_1_1Yt.html#afdb387f90baf8112671fe84e99a8907c">Cfg::Yt::ytcmd</a></div><div class="ttdeci">std::string ytcmd</div><div class="ttdoc">Команда для скачки</div><div class="ttdef"><b>Определения</b> Cfg.hpp:70</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a href="Cfg_8hpp.html">Cfg.hpp</a></li>
+    <li class="footer">Документация по dym. Последние изменения: <span class="timestamp"></span>. Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

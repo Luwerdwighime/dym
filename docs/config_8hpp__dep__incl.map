@@ -1,0 +1,23 @@
+<map id="src/config.hpp" name="src/config.hpp">
+<area shape="rect" id="Node000001" title="Константы" alt="" coords="114,5,225,33"/>
+<area shape="rect" id="Node000002" href="$Cfg_8hpp.html" title="Класс Cfg и глобальная переменная config." alt="" coords="165,81,259,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,45,207,79,202,82,182,48"/>
+<area shape="rect" id="Node000004" href="$Fs_8hpp.html" title="Класс Fs как коллекция функций для работы с файловой системой" alt="" coords="84,157,172,184"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="164,49,134,157,129,155,159,47"/>
+<area shape="rect" id="Node000006" href="$Yt_8hpp.html" title=" " alt="" coords="5,232,91,260"/>
+<area shape="poly" id="edge12_Node000001_Node000006" title=" " alt="" coords="143,45,95,93,72,124,55,158,47,197,49,232,43,232,42,197,49,156,68,121,91,90,139,41"/>
+<area shape="rect" id="Node000008" href="$main_8cpp.html" title="Прога для комфортного кача с YouTube." alt="" coords="194,308,299,336"/>
+<area shape="poly" id="edge13_Node000001_Node000008" title=" " alt="" coords="213,38,243,56,272,79,306,113,317,131,327,156,330,181,328,213,317,261,295,289,270,310,267,305,291,285,312,259,322,212,324,181,321,157,312,133,302,116,269,83,240,61,210,43"/>
+<area shape="rect" id="Node000003" href="$Cfg_8cpp.html" title=" " alt="" coords="196,157,289,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="226,122,240,155,235,157,221,124"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="187,121,145,158,141,154,184,117"/>
+<area shape="poly" id="edge9_Node000002_Node000006" title=" " alt="" coords="151,112,110,130,90,143,74,158,63,176,56,196,51,232,46,231,51,195,58,174,70,155,87,139,107,126,149,107"/>
+<area shape="poly" id="edge10_Node000002_Node000008" title=" " alt="" coords="260,114,285,132,304,155,311,177,312,199,301,242,280,281,260,309,256,306,276,278,296,240,307,198,306,178,299,158,281,135,257,118"/>
+<area shape="rect" id="Node000005" href="$Fs_8cpp.html" title=" " alt="" coords="165,232,251,260"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="155,193,196,230,192,234,152,197"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="104,197,64,234,60,230,101,193"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="133,199,141,229,155,258,184,286,217,305,214,310,181,290,151,262,136,231,128,200"/>
+<area shape="rect" id="Node000007" href="$Yt_8cpp.html" title=" " alt="" coords="6,308,90,336"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="51,276,51,308,45,308,45,276"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="99,263,212,305,210,310,97,268"/>
+</map>

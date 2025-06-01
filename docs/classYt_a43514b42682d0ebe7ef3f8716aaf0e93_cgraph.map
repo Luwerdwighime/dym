@@ -1,0 +1,12 @@
+<map id="Yt::process_playlist_ids" name="Yt::process_playlist_ids">
+<area shape="rect" id="Node000001" title="Получение и обработка ID видео из плейлиста" alt="" coords="5,57,179,85"/>
+<area shape="rect" id="Node000002" href="$classFs.html#a6272d618633b1ea9d78a53be81b12fd7" title="Проверка, есть ли ID видео в DRAY_LOG." alt="" coords="227,5,411,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,54,239,35,241,40,156,59"/>
+<area shape="rect" id="Node000004" href="$classFs.html#a3bbf4008231e10a1e1d95696df0d14a5" title="Запись ID видео в DRAY_LOG." alt="" coords="256,57,382,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="179,68,240,68,240,74,179,74"/>
+<area shape="rect" id="Node000005" href="$classYt.html#a76e426c4decef7c5777bdf88c8c84533" title="Обёртка вокруг консольной команды yt&#45;dlp." alt="" coords="264,109,374,137"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="156,83,249,104,247,110,155,88"/>
+<area shape="rect" id="Node000003" href="$classFs.html#abe01b346d7340a78999e275b36e06b46" title="Возвращает путь к DRAY_LOG." alt="" coords="459,32,583,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="412,29,444,33,443,38,411,34"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="382,61,443,53,444,58,383,66"/>
+</map>

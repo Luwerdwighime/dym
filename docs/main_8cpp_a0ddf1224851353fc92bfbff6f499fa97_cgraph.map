@@ -1,0 +1,27 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="Точка входа в программу" alt="" coords="5,109,60,137"/>
+<area shape="rect" id="Node000002" href="$classUser.html#abb71365ead22bd1d92099e2286863ce8" title="Вытряхивает url с юзера" alt="" coords="108,5,207,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="43,107,70,76,106,44,112,39,115,44,109,48,74,80,47,111"/>
+<area shape="rect" id="Node000003" href="$classUser.html#aa41915ec41025b5625fa3d06c8f7369b" title="Выводит хэлп" alt="" coords="114,57,201,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="59,110,107,89,109,94,61,115"/>
+<area shape="rect" id="Node000004" href="$classFs.html#acb7d48bc48ced2ef3689cf3ef6e997bd" title="Создаёт нужные для работы проги папки" alt="" coords="112,109,203,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="60,120,96,120,96,126,60,126"/>
+<area shape="rect" id="Node000006" href="$classUser.html#a1c85eb04195d59bf6ad4d5e423530244" title="Показывает главное меню" alt="" coords="109,161,206,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="61,132,109,152,107,157,59,137"/>
+<area shape="rect" id="Node000007" href="$classYt.html#a2567e552458d666519eb74d951992c82" title="Скачка url с запрошенным режимом" alt="" coords="116,213,198,241"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="47,136,74,166,109,198,115,203,112,207,106,203,70,170,43,139"/>
+<area shape="rect" id="Node000005" href="$classFs.html#a364898d4c8e6ceb153b2a5b9c7c34e42" title="Создаёт папку (целый путь), если её ещё нет" alt="" coords="293,109,390,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="204,120,278,120,278,126,204,126"/>
+<area shape="rect" id="Node000008" href="$classYt.html#a43514b42682d0ebe7ef3f8716aaf0e93" title="Получение и обработка ID видео из плейлиста" alt="" coords="255,161,428,189"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="198,213,274,191,276,196,200,218"/>
+<area shape="rect" id="Node000012" href="$classYt.html#a76e426c4decef7c5777bdf88c8c84533" title="Обёртка вокруг консольной команды yt&#45;dlp." alt="" coords="513,213,624,241"/>
+<area shape="poly" id="edge13_Node000007_Node000012" title=" " alt="" coords="199,224,497,224,497,230,199,230"/>
+<area shape="rect" id="Node000009" href="$classFs.html#a6272d618633b1ea9d78a53be81b12fd7" title="Проверка, есть ли ID видео в DRAY_LOG." alt="" coords="476,109,661,137"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="405,158,489,139,490,144,406,163"/>
+<area shape="rect" id="Node000011" href="$classFs.html#a3bbf4008231e10a1e1d95696df0d14a5" title="Запись ID видео в DRAY_LOG." alt="" coords="505,161,632,189"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="428,172,490,172,490,178,428,178"/>
+<area shape="poly" id="edge12_Node000008_Node000012" title=" " alt="" coords="406,187,498,208,497,214,405,192"/>
+<area shape="rect" id="Node000010" href="$classFs.html#abe01b346d7340a78999e275b36e06b46" title="Возвращает путь к DRAY_LOG." alt="" coords="709,136,833,164"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="661,133,693,137,693,142,661,138"/>
+<area shape="poly" id="edge11_Node000011_Node000010" title=" " alt="" coords="632,165,693,157,693,162,632,170"/>
+</map>
