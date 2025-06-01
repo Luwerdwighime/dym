@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Класс Yt как коллекция функций для работы с yt&#45;dlp.">
 <polygon fill="#999999" stroke="#666666" points="341.5,-191 277.5,-191 277.5,-170.25 341.5,-170.25 341.5,-191"/>
 <text text-anchor="middle" x="309.5" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/Yt.hpp</text>
 </a>

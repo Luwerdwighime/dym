@@ -1,5 +1,5 @@
 /**
- * @file Yt_dlp.hpp
+ * @file Yt.hpp
  * @brief Класс Yt как коллекция функций для работы с yt-dlp
  */
 
