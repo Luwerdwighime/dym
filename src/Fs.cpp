@@ -38,15 +38,15 @@ bool Fs::is_video_downloaded(std::string video_id) {
   std::string line; // Буффер под строчку динамического размера в куче
   // Читаем в line построчечно, пока std::getline() не вернёт EOF
   while (std::getline(log, line)) {
-    // Удаляем возможные пробелы или \r (для совместимости с Windows)
-    while (!line.empty() && (line.back() == '\n' || line.back() == '\r'))
-      line.pop_back(); // Выкинуть символ с хвоста
+    // Удаляем \n или \r (для совместимости с Mac/Win)
+    line.erase(line.find_last_not_of("\n\r") + 1);
+
     if (line == video_id) { // Нашли!
       log.close(); // Закрываем файл
       return true; // Успех
     }
   }
-  log.close(); // Закрываем файл
+  log.close();  // Закрываем файл
   return false; // Все перерыли и не нашли
 }
 

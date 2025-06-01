@@ -3,9 +3,11 @@
  * @brief Прога для комфортного кача с YouTube
  */
 
-#include "Cfg.hpp"  // Для класса Cfg и глобального объекта config типа Cfg
-#include "Fs.hpp"   // Для класса Fs
-#include "User.hpp" // Для класса User
+#include "Cfg.hpp"    // Для класса Cfg и глобального объекта config типа Cfg
+#include "Fs.hpp"     // Для класса Fs
+#include "User.hpp"   // Для класса User
+#include "Yt.hpp"     // Для класса Yt
+#include "config.hpp" // Константы
 
 /**
  * @brief Точка входа в программу
@@ -37,10 +39,7 @@ int main(int argc, char* argv[]) {
 
   // Пойдем работать потихонечку
   Fs::initDirs(); // Создаем, если нужно, рабочие папки
-
-
-
-
+  Yt::yt_dlp(config->opt.url, config->opt.mode); // Работаем
 
   return 0; // Profit!
 }

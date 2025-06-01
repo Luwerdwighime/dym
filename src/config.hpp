@@ -4,6 +4,9 @@
  */
 
 #pragma once
+/// Флаг дебага
+#define DEBUG true
+
 /// Путь поумолчанию до конфига
 #define INI_CFG "config.ini"
 
@@ -17,3 +20,4 @@
 #define ERR_DRAYLOG 4
 /// Ошибка при получении плейлиста из сети
 #define ERR_YTID    5
+
